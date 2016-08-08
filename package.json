@@ -1,0 +1,24 @@
+{
+  "name": "angular-dropdown",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KarenChuang/angular-dropdown.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KarenChuang/angular-dropdown/issues"
+  },
+  "homepage": "https://github.com/KarenChuang/angular-dropdown#readme",
+  "dependencies": {
+    "angular": "^1.5.8",
+    "gulp": "^3.9.1",
+    "gulp-connect": "^5.0.0"
+  }
+}

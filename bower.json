@@ -1,0 +1,22 @@
+{
+  "name": "angular-dropdown",
+  "description": "",
+  "main": "gulpfile.js",
+  "authors": [
+    "zhongbingqing <bingqing.zhong@ele.me>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/KarenChuang/angular-dropdown",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.5.8",
+    "jquery": "~3.1.0"
+  }
+}
