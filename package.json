@@ -19,6 +19,7 @@
   "dependencies": {
     "angular": "^1.5.8",
     "gulp": "^3.9.1",
-    "gulp-connect": "^5.0.0"
+    "gulp-connect": "^5.0.0",
+    "gulp-sass": "^2.3.2"
   }
 }

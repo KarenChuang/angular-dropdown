@@ -8,7 +8,7 @@
   <script src="../bower_components/jquery/dist/jquery.min.js"></script>
 </head>
 <script type="text/javascript" src="dropdownCtrl.js"></script>
-<link rel="stylesheet" href="index.css">
+<link rel="stylesheet" href="css/index.css">
 
 <body>
   <div ng-app="myApp" ng-controller="dropdownCtrl">
@@ -16,7 +16,7 @@
       <div class="dropdown-display" ng-click="show();" ng-class="{ activated: listVisible }">
         <span>{{selectedDate.name}}
     <i class="fa fa-chevron-up" ng-class="{'fa-chevron-down': !listVisible, 'fa-chevron-up': listVisible}"></i>
- 		</span>
+    </span>
       </div>
       <div class="dropdown-list">
         <div>
