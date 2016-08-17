@@ -1,0 +1,21 @@
+<div class="dropdown-container" ng-class="{ show: listVisible }">
+
+  <div class="dropdown-display" 
+       ng-click="show()" 
+       ng-class="{ activated: listVisible }">
+    <span>{{selected.name}}
+   <!--  <i class="fa fa-chevron-up" 
+       ng-class="{'fa-chevron-down': !listVisible, 'fa-chevron-up': listVisible}"></i> -->
+    </span>
+  </div>
+
+  <div class="dropdown-list">
+    <div>
+      <div ng-repeat="item in list" 
+           ng-click="select(item)" 
+           ng-class="{ selected: isSelected(item) }">
+        <span>{{ item[property] }}</span>
+      </div>
+    </div>
+  </div>
+</div>

@@ -10,22 +10,12 @@
 <script src="../bower_components/jquery/dist/jquery.min.js"></script>
 <script type="text/javascript" src="dropdownCtrl.js"></script>
 
-<body>
-  <div ng-app="myApp" ng-controller="dropdownCtrl">
-    <div class="dropdown-container" ng-class="{ show: listVisible }">
-      <div class="dropdown-display" ng-click="show();" ng-class="{ activated: listVisible }">
-        <span>{{selectedDate.name}}
-    <i class="fa fa-chevron-up" ng-class="{'fa-chevron-down': !listVisible, 'fa-chevron-up': listVisible}"></i>
-    </span>
-      </div>
-      <div class="dropdown-list">
-        <div>
-          <div ng-repeat="item in monthShowArray" ng-click="select(item)" ng-class="{ selected: isSelected(item) }">
-            <span>{{property !== undefined ? item[property] : item.name}}</span>
-          </div>
-        </div>
-      </div>
-    </div>
+<body ng-app="myApp" ng-controller="dropdownCtrl">
+  <div >
+     <drop-down list="monthShowArray"
+               selected="selectedDate"
+               property="name">
+    </drop-down>
   </div>
 </body>
 

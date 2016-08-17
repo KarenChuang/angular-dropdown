@@ -23,6 +23,7 @@ drop-down > div {
   cursor: pointer;
   box-sizing: border-box;
   border-top: 1px solid #efefef;
+  border-bottom: 1px solid #d09797;
   color: #5b5b5b; }
   .dropdown-display svg {
     margin-left: 5px; }
@@ -60,7 +61,7 @@ drop-down > div {
   z-index: 2;
   cursor: pointer;
   background: white;
-  box-shadow: 0px 9px 5px -3px rgba(221, 221, 221, 0.8); }
+  box-shadow: 0px 9px 5px -3px rgba(63, 56, 56, 0.8); }
 
 .dropdown-list > div > div {
   float: left;
@@ -73,8 +74,8 @@ drop-down > div {
 .dropdown-list > div > div:hover {
   background: #F0F0F0; }
 
-.dropdown-list > div > div.selected {
-  color: #1fa4ff; }
+.selected {
+  color: #993333; }
 
 .dropdown-list > div > div > * {
   height: 45px;
